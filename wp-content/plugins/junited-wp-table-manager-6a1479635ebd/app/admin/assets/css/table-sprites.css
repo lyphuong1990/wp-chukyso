@@ -1,0 +1,137 @@
+.sprite {
+    background-image: url(../images/table-sprites.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite_border_all {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -5px;
+}
+
+.sprite_border_bottom {
+    width: 22px;
+    height: 22px;
+    background-position: -37px -5px;
+}
+
+.sprite_border_fall {
+    width: 22px;
+    height: 22px;
+    background-position: -69px -5px;
+}
+
+.sprite_border_horizontal {
+    width: 22px;
+    height: 22px;
+    background-position: -101px -5px;
+}
+
+.sprite_border_inside {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -37px;
+}
+
+.sprite_border_left {
+    width: 22px;
+    height: 22px;
+    background-position: -37px -37px;
+}
+
+.sprite_border_outline {
+    width: 22px;
+    height: 22px;
+    background-position: -69px -37px;
+}
+
+.sprite_border_remove {
+    width: 22px;
+    height: 22px;
+    background-position: -101px -37px;
+}
+
+.sprite_border_right {
+    width: 22px;
+    height: 22px;
+    background-position: -5px -69px;
+}
+
+.sprite_border_top {
+    width: 22px;
+    height: 22px;
+    background-position: -37px -69px;
+}
+
+.sprite_border_up {
+    width: 22px;
+    height: 22px;
+    background-position: -69px -69px;
+}
+
+.sprite_border_vertical {
+    width: 22px;
+    height: 22px;
+    background-position: -101px -69px;
+}
+
+.sprite_text_align_center {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -101px;
+}
+
+.sprite_text_align_justify {
+    width: 16px;
+    height: 16px;
+    background-position: -31px -101px;
+}
+
+.sprite_text_align_left {
+    width: 16px;
+    height: 16px;
+    background-position: -57px -101px;
+}
+
+.sprite_text_align_right {
+    width: 16px;
+    height: 16px;
+    background-position: -83px -101px;
+}
+
+.sprite_text_bold {
+    width: 16px;
+    height: 16px;
+    background-position: -109px -101px;
+}
+
+.sprite_text_italic {
+    width: 16px;
+    height: 16px;
+    background-position: -133px -5px;
+}
+
+.sprite_text_underline {
+    width: 16px;
+    height: 16px;
+    background-position: -133px -31px;
+}
+
+.sprite_vertical_align_bottom {
+    width: 16px;
+    height: 16px;
+    background-position: -133px -57px;
+}
+
+.sprite_vertical_align_middle {
+    width: 16px;
+    height: 16px;
+    background-position: -135px -83px;
+}
+
+.sprite_vertical_align_top {
+    width: 16px;
+    height: 16px;
+    background-position: -135px -109px;
+}

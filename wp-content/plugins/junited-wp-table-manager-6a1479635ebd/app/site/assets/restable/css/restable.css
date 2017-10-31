@@ -1,0 +1,65 @@
+/* 
+    Created on : 17 sept. 2014, 18:24:46
+    Author     : damien
+*/
+div.restableOverflowShow {
+    overflow-x: scroll;
+}
+
+/** Hide cols functionnality **/
+.restableMenu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0.5em;
+    margin-top: -15px;
+}
+
+.restableMenu .restableMenuButton {
+    display: block;
+    text-decoration: none;
+    border: 1px;
+    background: #ddd;
+    padding: 0.5em;
+    color: #000;
+}
+
+.restableMenu ul {
+    list-style-position: outside;
+    list-style: none !important;
+    margin: 0;
+    padding: 0 0.5em;
+    display: block;
+    background: #FFF;
+}
+
+.restableMenu.restableMenuClosed ul {
+    display: none;
+}
+
+.restableHideCols {
+    position: relative;
+    padding-top: 2em;
+}
+
+.resTableSafari::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+    border-bottom: 1px solid #eee; 
+    border-top: 1px solid #eee;
+}
+    
+.resTableSafari::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #C3C3C3;
+    border: 2px solid #eee;
+}
+
+.resTableSafari::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.2); 
+}
+
+.resTableSafari table {
+    table-layout: fixed;
+    max-width: none !important;
+}

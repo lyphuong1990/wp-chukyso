@@ -1,0 +1,264 @@
+{
+    "slug": "wp-table-manager",
+    "name": "WP Table Manager",
+    "uri": "https://www.joomunited.com/wordpress-products/wp-table-manager",
+    "version": "2.2.9",
+    "wp_version" : "4.8.0",
+    "changelog":{
+      "2.2.9": [
+        {
+          "type": "fix",
+          "title": "Import excel file which contain non utf8 characters"
+        }
+      ],
+      "2.2.8": [
+        {
+          "type": "fix",
+          "title": "Error when JU framework is not installed"
+        }
+      ],
+      "2.2.7": [
+        {
+          "type": "fix",
+          "title": "Issue on upgrading from light version to full version"
+        }
+      ],
+      "2.2.6": [
+        {
+          "type": "fix",
+          "title": "Update the updater for WordPress 4.8"
+        }
+      ],
+    "2.2.5": [
+        {
+          "type": "fix",
+          "title": "Use default en_US language"
+        }
+    ],
+    "2.2.4":[
+        {
+          "type":"fix",
+          "title":"Text domain related problem for JUTranslation"
+        }
+      ],
+	"2.2.3":[
+        {
+          "type":"feature",
+          "title":"JUTranslation implementation"
+        }
+      ],
+      "2.2.2":[
+        {
+          "type":"fix",
+          "title":"CSS style frontend rendering"
+        },
+        {
+          "type":"fix",
+          "title":"Import XLS tables style not complete"
+        }
+      ],
+      "2.2.1":[
+        {
+          "type":"fix",
+          "title":"Excel importer issue"
+        },
+        {
+          "type":"fix",
+          "title":"Display issue when freezing row on mobile devices"
+        }
+      ],
+	"2.2.0":[  
+	    {
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: ACF"
+		},
+		{
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: Beaver Builder"
+		},	
+		{
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: DIVI Builder"
+		},
+		{
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: Site Origine"
+		},
+		{
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: Themify builder"
+		},
+		{
+		  "type":"feature",
+		  "title":"Use WP Table manager with page builder: Live composer"
+		},
+        {
+		  "type":"fix",
+		  "title":"Pagination display on database tables"
+		}
+      ],
+	"2.1.0":[  
+	      {  
+            "type":"feature",
+            "title":"Create tables from WordPress database (not only WordPres tables, all the tables from the database)"
+         },
+         {  
+            "type":"feature",
+            "title":"Automatic styling and filtering for database tables"
+         },
+         {  
+            "type":"feature",
+            "title":"Table automatic update on database incrementation"
+         },
+         {  
+            "type":"feature",
+            "title":"Database source: table, column, filters, define ordering and column custom name"
+         },
+         {  
+            "type":"feature",
+            "title":"Create chart from database table"
+         },
+         {  
+            "type":"fix",
+            "title":"First time the tooltip is displayed it blinks (JS fix)"
+         }
+      ],
+	 "2.0.1":[  
+	      {  
+            "type":"fix",
+            "title":"Admin column header not responsive layout"
+         },
+         {  
+            "type":"fix",
+            "title":"PHP7 compatibility for Excel table export"
+         }
+      ],
+	 "2.0.0":[  
+         {  
+            "type":"feature",
+            "title":"Enhanced .xls Import/Export: possibility to Import/Export only data"
+         },
+         {  
+            "type":"feature",
+            "title":"Handle Excel styles on Import/Export: HTML link, font color, font size, cell background color, cell border"
+         },
+		 {  
+            "type":"feature",
+            "title":"Sheet data synchronization: Select an excel file on the server, fetch data and define a sync delay"
+         },
+         {  
+            "type":"feature",
+            "title":"Sheet data synchronization: Select a Google Sheet, fetch data and define a sync delay"
+         },
+         {  
+            "type":"feature",
+            "title":"Notification when a file has an external sync to avoid data lost"
+         },
+		 {  
+            "type":"fix",
+            "title":"Vertical scrolling issue on large table"
+         }
+		 
+      ],
+     "1.4.1":[  
+         {  
+            "type":"fix",
+            "title":"PHP7 JU framework compatibility"
+         }
+      ],
+      "1.4.0":[  
+         {  
+            "type":"feature",
+            "title":"Data filtering and ordering tool as an option"
+         },
+         {  
+            "type":"fix",
+            "title":"Language update"
+         }
+      ],
+      "1.3.0":[  
+         {  
+            "type":"feature",
+            "title":"Add column and line freezing"
+         },
+         {  
+            "type":"fix",
+            "title":"Issue loading twice WPTM in a post"
+         },
+         {  
+            "type":"fix",
+            "title":"Height available of screen viewport"
+         }
+      ],
+      "1.2.1":[  
+         {  
+            "type":"fix",
+            "title":"Tooltip have wrong size when column is resized"
+         }
+      ],
+      "1.2.0":[  
+         {  
+            "type":"feature",
+            "title":"Generate tooltip on cell, activate through a global option"
+         },
+         {  
+            "type":"feature",
+            "title":"Respect WordPress user roles to give access to table data"
+         },
+         {  
+            "type":"fix",
+            "title":"Menu name change to fit WordPress admin column width"
+         },
+         {  
+            "type":"fix",
+            "title":"\u00a0Polylang JS conflict"
+         },
+         {  
+            "type":"fix",
+            "title":"Custom CSS edition cursor not visible"
+         }
+      ],
+      "1.1.1":[  
+         {  
+            "type":"fix",
+            "title":"\u00a0Cell mergin not reflecting on public side"
+         },
+         {  
+            "type":"fix",
+            "title":"\u00a0Table copy not copy all data"
+         }
+      ],
+      "1.1.0":[  
+         {  
+            "type":"feature",
+            "title":"\u00a0JoomUnited automatic updater"
+         },
+         {  
+            "type":"feature",
+            "title":"\u00a0Performance optimization on loading time and for big tables"
+         },
+         {  
+            "type":"feature",
+            "title":"\u00a0Possibility to move a table from one category to another"
+         },
+         {  
+            "type":"feature",
+            "title":"\u00a0Possibility to reorder tables in a category"
+         },
+         {  
+            "type":"feature",
+            "title":"\u00a0Shortcode per table and chart"
+         },
+         {  
+            "type":"feature",
+            "title":"\u00a0Add codemiror in custom CSS edition window"
+         }
+      ],
+      "1.0.0":[  
+         {  
+            "type":"feature",
+            "title":"Initial release"
+         }
+      ]
+   }
+}

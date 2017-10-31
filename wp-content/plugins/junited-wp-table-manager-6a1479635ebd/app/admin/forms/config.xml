@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form class="wptmparams" method="POST" action="admin.php?page=wptm-config&amp;task=config.saveconfig">
+       
+    <input 
+        name="enable_import_excel"
+        type="select"
+        label="Enable import/export Excel"
+        value="1"
+        class="inputbox input-block-level"
+        required="true"
+    >
+        <option value="1">Yes</option>
+        <option value="0">No</option>
+    </input>   
+    <input 
+        name="export_excel_format"
+        type="select"
+        label="Export file format"
+        value="xlsx"
+        class="inputbox input-block-level"
+        required="true"
+    >        
+        <option value="xls">Excel 2003</option>
+        <option value="xlsx">Excel 2007</option>
+    </input>
+   
+    <input 
+        name="enable_tooltip"
+        type="select"
+        label="Enable Tooltip"
+        value="0"
+        class="inputbox input-block-level"
+        required="true"
+    >        
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input>     
+    
+    <input 
+        name="enable_autosave"
+        type="select"
+        label="Enable auto save"
+        value="1"
+        class="inputbox input-block-level"
+        required="true"
+    >   
+        <option value="1">Yes</option>     
+        <option value="0">No</option>        
+    </input>  
+    
+    <input 
+        name="sync_periodicity"
+        type="select"
+        label="File sync periodicity"
+        value="0"
+        class="inputbox input-block-level"
+        required="true"
+    >   
+        <option value="0">No</option>     
+        <option value="1">1 hour</option>        
+        <option value="12">12 hours</option>        
+        <option value="24">24 hours</option>        
+    </input>  
+    
+    <input name="last_sync" value="" type="text" hidden="true" />
+    
+    <input 
+        name="enable_frontend"
+        type="select"
+        label="Load the plugin on frontend"
+        tooltip="Load the plugin in page builder on frontend"
+        value="0"
+        class="inputbox input-block-level"
+        required="true"
+    >        
+        <option value="0">No</option>
+        <option value="1">Yes</option>
+    </input> 
+    
+    <button
+        type="submit"
+        value="Save"
+        class="button"
+    />
+   
+</form>
